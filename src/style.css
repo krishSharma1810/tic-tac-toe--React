@@ -1,0 +1,101 @@
+/* /* colors 
+for X=>  #00FFFF
+for O=>  #FF69B4
+for background => #4b0082
+for game border => #f2f2f2*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+.History-list {
+  list-style: none;
+}
+
+.square {
+  background: #fff;
+  border: 3px solid #f2f2f2;
+  background: transparent;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  color: white;
+  /* font-size: 1.8rem; */
+}
+.game {
+  margin: 3rem auto;
+  border-radius: 11px;
+  padding: 5rem;
+  display: flex;
+  height: 80svh;
+  width: 100svh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right bottom, #4b0082, #ff69b4);
+  /* align-items: center; */
+  /* flex-direction: row; */
+}
+
+.game-info {
+  margin-left: 20px;
+}
